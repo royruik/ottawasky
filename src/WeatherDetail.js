@@ -18,8 +18,8 @@ const WeatherDetail = () => {
   useEffect(() => {
     const fetchWeather = async () => {
       try {
-        const weatherResponse = await axios.get(`http://api.weatherapi.com/v1/current.json?key=273c7f3252a74a499f1184946241703&q=${region}&aqi=no`);
-        const forecastResponse = await axios.get(`http://api.weatherapi.com/v1/forecast.json?key=273c7f3252a74a499f1184946241703&q=${region}&days=4`); // Fetch forecast data [2/2]
+        const weatherResponse = await axios.get(`https://api.weatherapi.com/v1/current.json?key=273c7f3252a74a499f1184946241703&q=${region}&aqi=no`);
+        const forecastResponse = await axios.get(`https://api.weatherapi.com/v1/forecast.json?key=273c7f3252a74a499f1184946241703&q=${region}&days=4`); // Fetch forecast data [2/2]
         setWeatherData(weatherResponse.data);
         setForecastData(forecastResponse.data); // Set forecast data [2/2]
         setLoading(false);
@@ -51,7 +51,7 @@ const WeatherDetail = () => {
       return nextDaysForecast.map((forecastDay, idx) => (
         <Col md={4} key={idx}>
           <Card>
-            <Card.Img variant="top" src={`http:${forecastDay.day.condition.icon}`} className="mx-auto d-block" style={{ width: '120px', height: '120px' }}/>
+            <Card.Img variant="top" src={`https:${forecastDay.day.condition.icon}`} className="mx-auto d-block" style={{ width: '120px', height: '120px' }}/>
             <Card.Body>
               <Card.Title style={{ fontWeight: 'bold' }}>{moment(forecastDay.date).format('dddd, MMM Do')}</Card.Title>
               <Card.Text className="ForecastCondition">
