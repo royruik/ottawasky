@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ottawasky/static/css/main.6ebe3a5f.css",
+    "main.js": "/ottawasky/static/js/main.79733ab4.js",
+    "static/js/453.fffc2040.chunk.js": "/ottawasky/static/js/453.fffc2040.chunk.js",
+    "static/media/background.jpg": "/ottawasky/static/media/background.d4a50516584907b77aed.jpg",
+    "static/media/logo.png": "/ottawasky/static/media/logo.744e73d8dc078c3e3ead.png",
+    "index.html": "/ottawasky/index.html",
+    "main.6ebe3a5f.css.map": "/ottawasky/static/css/main.6ebe3a5f.css.map",
+    "main.79733ab4.js.map": "/ottawasky/static/js/main.79733ab4.js.map",
+    "453.fffc2040.chunk.js.map": "/ottawasky/static/js/453.fffc2040.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ebe3a5f.css",
+    "static/js/main.79733ab4.js"
+  ]
+}
