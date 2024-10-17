@@ -8,6 +8,13 @@ custom alerts and advisories.
 
 Teammates Credits: Hairuo Liu, Joey Lee.
 
+# This project has deployed by GitHub Pages
+To view:
+    https://royruik.github.io/ottawasky/
+
+
+
+
 # Old README.txt
 To be able to run the OttawaSky:
 1. You need to get Node.js installed.

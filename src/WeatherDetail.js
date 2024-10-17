@@ -124,7 +124,7 @@ const WeatherDetail = () => {
             </Row>
           </Card.Body>
         </Card>
-        {/* You can also add a forecast section here using weatherData.forecast.forecastday */}
+        
       </Container>
       <FooterComponent />
     </div>
