@@ -40,7 +40,7 @@ const WeatherDetail = () => {
     return <div>Weather data not available</div>;
   }
 
-  const iconUrl = weather.current.is_day ? `http:${weather.current.condition.icon}` : `http:${weather.current.condition.icon}`;
+  const iconUrl = weather.current.is_day ? `https:${weather.current.condition.icon}` : `https:${weather.current.condition.icon}`;
 
   const renderThreeDayForecast = () => {
     
