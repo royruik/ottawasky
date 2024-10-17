@@ -12,7 +12,7 @@ const WeatherCard = ({ region }) => {
 
   useEffect(() => {
     const fetchWeather = async () => {
-      const response = await axios.get(`http://api.weatherapi.com/v1/current.json?key=273c7f3252a74a499f1184946241703&q=${region}&aqi=no`);
+      const response = await axios.get(`https://api.weatherapi.com/v1/current.json?key=273c7f3252a74a499f1184946241703&q=${region}&aqi=no`);
       setWeather(response.data);
     };
 
